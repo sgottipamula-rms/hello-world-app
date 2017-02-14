@@ -1,0 +1,38 @@
+# IntelliJ IDE
+.idea/
+*.iml
+
+# Eclipse IDE
+.settings/
+.metadata/
+.project
+.classpath
+
+# Build
+target/
+
+# Code merging
+*.orig
+
+# Editor backup files
+*~
+
+#ignore thumbnails created by windows
+Thumbs.db
+
+# Logs and other working files/directories
+*.log
+*.log.*
+logs/
+${activemq.data}/
+
+build-all.bat
+
+*.launch
+atlassian-ide-plugin.xml
+
+## docs test files
+WzlDocs/veevaVault/fileSystem
+DocsForVof/activemq-data/
+WzlDocs/activemq-data/
+activity.csv
