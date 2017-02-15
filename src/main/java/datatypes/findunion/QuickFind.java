@@ -1,12 +1,14 @@
+package datatypes.findunion;
+
 /**
  * Created by sgottipamula on 2/14/17.
  */
-public class FindUnion {
+public class QuickFind {
 
     int size;
     int[] arr;
 
-    public FindUnion(int size) {
+    public QuickFind(int size) {
         this.size = size;
         arr = new int[size];
 
