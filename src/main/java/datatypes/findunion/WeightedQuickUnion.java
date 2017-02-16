@@ -12,7 +12,7 @@ public class WeightedQuickUnion {
         this.size = size;
         arr = new int[size];
         weight = new int[size];
-        
+
         for(int i=0; i<size; i++) {
             arr[i] = i;
             weight[i] = 1;
@@ -34,6 +34,8 @@ public class WeightedQuickUnion {
     public void union(int startIndex, int endIndex) {
         int startIndexRoot = root(startIndex);
         int endIndexRoot = root(endIndex);
+
+        if(startIndexRoot == endIndexRoot) return;
 
         if(weight[startIndexRoot] <= weight[endIndexRoot]) {
             arr[startIndexRoot] = endIndexRoot;
