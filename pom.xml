@@ -14,7 +14,22 @@
             <version>4.11-beta-1</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-client</artifactId>
+            <version>1.19.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.9</version>
+        </dependency>
     </dependencies>
+
+    <!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+
 
 
 </project>
